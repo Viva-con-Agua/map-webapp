@@ -1,0 +1,17 @@
+[
+    {
+        "href": "https://router.vuejs.org/",
+        "alt": "Vue Router",
+        "src": "vue"
+    },
+    {
+        "href": "https://vue-i18n.intlify.dev/",
+        "alt": "Vue i18n",
+        "src": "i18n"
+    },
+    {
+        "href": "https://pinia.vuejs.org/",
+        "alt": "Pinia Store",
+        "src": "pinia"
+    }
+]

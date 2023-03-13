@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+    app:
+        build: .
+        restart: always
+        env_file:
+            - .env
+        networks:
+            domain_net:
+                ipv4_address: ${docker_ip}
+
+networks:
+    domain_net:
+        external:
+            name: domain_net

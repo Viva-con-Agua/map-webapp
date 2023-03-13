@@ -1,0 +1,213 @@
+{
+    "undefined": "Übersetzungsfehler",
+    "locale": {
+        "dateFormat": "DD.MM.YYYY",
+        "dateTimeFormat": "DD.MM.YYYY HH:mm",
+        "time": " Uhr",
+        "currency": "€",
+        "locale": "de-DE",
+        "monthDateFormat": "MM.YYYY",
+        "de": {
+            "locale": "de-DE",
+            "name": "Deutsch",
+            "label": "DE"
+        },
+        "ch": {
+            "locale": "de-CH",
+            "name": "Schweizerdeutsch",
+            "label": "CH"
+        },
+        "za": {
+            "locale": "en-ZA",
+            "name": "Südafrikanisches English",
+            "label": "ZA"
+        },
+        "gb": {
+            "locale": "en-GB",
+            "name": "Britisches English",
+            "label": "GB"
+        }
+    },
+    "language": {
+        "title": "Sprache"
+    },
+    "messages": {
+        "title": {
+            "success": "Super!",
+            "error": "Uuuups",
+            "warn": "Hmmm",
+            "welcome": "Moin!",
+            "bye": "Tschüss!",
+            "thanks": "Danke schön!"
+        },
+        "error": {
+            "unknown": "Es ist ein unbekannter Fehler aufgetreten.",
+            "unauth": "Du bist gerade nicht richtig eingeloggt!",
+            "wrong_extension": "Die Datei hat leider ein nicht unterstütztes Dateiformat",
+            "page_404": "Da bist du wohl irgendwo falsch abgebogen",
+            "permissions": "Du hast nicht die nötigen Berechtigungen diese Aktion durchzuführen",
+            "image_dimension": "Das Bild darf maximal 800 x 800 Pixel groß sein",
+            "user_nvm_required": "Der User muss aktiv sein und eine stimmrechtlose Mitgliedschaft abgeschlossen haben um Rollen zu bekommen"
+        }
+    },
+    "button": {
+        "save": "Speichern",
+        "donate": "Spenden",
+        "donate_now": "Jetzt spenden.",
+        "create": "Erstellen",
+        "generate": "Generieren",
+        "add": "Hinzufügen",
+        "apply": "Bewerben",
+        "accept": "Annehmen",
+        "reject": "Ablehnen",
+        "revoke": "Zurückziehen",
+        "change": "Ändern",
+        "select": "Auswählen",
+        "confirm": "Bestätigen",
+        "membership": "Werde Mitglied",
+        "export": "Exportieren",
+        "export_as": "Als {0} Exportieren",
+        "send": "Senden",
+        "show": "Anzeigen",
+        "view": "Anschauen",
+        "signin": "Anmelden",
+        "remove": "Entfernen",
+        "delete": "Löschen",
+        "back": "Zurück",
+        "next": "Weiter",
+        "update": "Aktualisieren",
+        "edit": "Bearbeiten",
+        "cancel": "Abbrechen",
+        "cancelling": "Absagen",
+        "enter": "Beitreten",
+        "request": "Anfragen",
+        "publish": "Veröffentlichen",
+        "withdraw": "Zurücknehmen",
+        "leave": "Verlassen",
+        "upload": "Hochladen",
+        "download": "Herunterladen",
+        "contact": "Kontaktieren",
+        "preview": "Vorschau",
+        "clear": "Zurücksetzen",
+        "more": "Mehr",
+        "participations": "Teilnahmen"
+    },
+    "context_button": {
+        "save": "{0} Speichern",
+        "create": "{0} Erstellen",
+        "generate": "{0} Generieren",
+        "add": "{0} Hinzufügen",
+        "change": "{0} Ändern",
+        "confirm": "{0} Bestätigen",
+        "export": "{0} Exportieren",
+        "export_as": "{0} als {1} Exportieren",
+        "select": "{0} Auswählen",
+        "send": "{0} Senden",
+        "show": "{0} Anzeigen",
+        "view": "{0} Anschauen",
+        "remove": "{0} Entfernen",
+        "delete": "{0} Löschen",
+        "update": "{0} Aktualisieren",
+        "revoke": "{0} Zurückziehen",
+        "edit": "{0} Bearbeiten",
+        "cancelling": "{0} Absagen",
+        "enter": "{0} Beitreten",
+        "request": "{0} Anfragen",
+        "publish": "{0} Veröffentlichen",
+        "withdraw": "{0} Zurücknehmen",
+        "leave": "{0} Verlassen",
+        "upload": "{0} Hochladen",
+        "download": "{0} Herunterladen",
+        "clear": "{0} Zurücksetzen",
+        "prepare": "{0} Vorbereiten"
+    },
+    "navigation": {
+        "home": {
+            "title": "Start",
+            "children": {}
+        },
+        "example": {
+            "title": "Beispiele",
+            "children": {
+                "reactivity": "Reactivity",
+                "store": "Store"
+            }
+        },
+        "table": {
+            "title": "Tabelle",
+            "children": {
+                "local": "Lokale Daten",
+                "async": "Asynchrone Daten"
+            }
+        }
+    },
+    "footer": {
+        "legal": {
+            "copyright": {
+                "header": "© 2022 Viva con Agua de Sankt Pauli e.V.",
+                "url": "https://www.vivaconagua.org"
+            },
+            "security": {
+                "header": "Datenschutzerklärung",
+                "url": "https://www.vivaconagua.org/datenschutzerklaerung/"
+            },
+            "imprint": {
+                "header": "Impressum",
+                "url": "https://www.vivaconagua.org/impressum/"
+            },
+            "emission": {
+                "header": "0% CO2 Emission - 100% Hydropower",
+                "url": "https://www.vivaconagua.org/umweltbewusstsein/"
+            }
+        }
+    },
+    "table": {
+        "header": {
+            "index": "#",
+            "name": "Name",
+            "avatar": "Avatar",
+            "title": "Titel",
+            "start": "Start",
+            "species": "Spezies",
+            "end": "Ende",
+            "type": "Typ",
+            "state": "Status",
+            "access": "Berechtigung",
+            "description": "Beschreibung",
+            "created": "Erstellt",
+            "private": "Privat",
+            "member_count": "Mitglieder"
+        },
+        "page": {
+            "label": "Seite",
+            "size": "Einträge",
+            "first": "Erste Einträge",
+            "back": "Vorherige Einträge",
+            "next": "Nächste Einträge",
+            "last": "Letze Einträge",
+            "no_results": "Keine Einträge gefunden"
+        },
+        "options": "",
+        "search": "Suchen"
+    },
+    "home": {
+        "welcome": "Moin bei Vite + Vue 3 + Storybook + Typescript + TailwindCSS",
+        "vue": "Vue beinhaltet Vue Router + Vue i18n + Pinia Store",
+        "setup": "Empfohlenes IDE setup:",
+        "see-readme": {
+            "see": "Schau in die",
+            "more-info": "für mehr Informationen."
+        },
+        "docs": "Doku"
+    },
+    "example": {
+        "check-reactivity": "Check reactivity",
+        "store-example": "Store Beispiel",
+        "count": "Kein Klick |  {count} Klick | {count} Klicks",
+        "success": "Du hast den Button geklickt!",
+        "hmr": {
+            "edit": "Bearbeite",
+            "test": "um hot module replacement zu testen"
+        }
+    }
+}

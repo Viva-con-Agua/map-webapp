@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'VeneerSoft';
+        src: url('@/assets/fonts/Veneer/23f300c2-6e76-46a1-8d80-c9f2e9de50aa.woff2') format('woff2'),
+            url('@/assets/fonts/Veneer/380a4dfb-1754-4633-a31b-9e0ed5472d9c.woff') format('woff');
+    }
+    @font-face {
+        font-family: 'Roboto Slab';
+        src: url('@/assets/fonts/RobotoSlab-VariableFont_wght.woff2') format('woff2'),
+            url('@/assets/fonts/RobotoSlab-VariableFont_wght.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+    }
+    :root {
+        --primary-color: #008fc3;
+        --primary-color-variant: #005675;
+        --primary-color-dark: #002e6d;
+        --primary-color-dark-variant: #03558c;
+        --secondary-color: #45b7a9;
+        --secondary-color-variant: #2c746b;
+        --error-color: #ff5522;
+        --success-color: #45b7a9;
+
+        --color-text-on-primary: #fff;
+        --color-text-on-primary-dark: #ffffff;
+        --color-text-on-secondary: #ffffff;
+        --color-text-on-background: #0f172a;
+        --color-text-on-background-muted: #b5b5b5;
+        --color-text-on-surface: #0f172a;
+        --color-text-on-surface-faded: rgb(100 116 139);
+        --color-text-on-surface-muted: #b5b5b5;
+        --color-text-on-error: #ffffff;
+        --color-text-on-success: #ffffff;
+
+        --color-bg-base: #f3f4f6;
+        --color-bg-surface: #ffffff;
+        --color-bg-error: var(--error-color);
+    }
+
+    .theme-dark {
+        --primary-color: #008fc3;
+        --primary-color-variant: #005675;
+        --primary-color-dark: #002e6d;
+        --primary-color-dark-variant: #03558c;
+        --secondary-color: #45b7a9;
+        --secondary-color-variant: #2c746b;
+        --error-color: #ff5522;
+        --success-color: #45b7a9;
+
+        --color-text-on-primary: #fff;
+        --color-text-on-primary-dark: #ffffff;
+        --color-text-on-secondary: #ffffff;
+        --color-text-on-background: #f8fafc;
+        --color-text-on-background-muted: #b5b5b5;
+        --color-text-on-surface: #f8fafc;
+        --color-text-on-surface-faded: rgb(100 116 139);
+        --color-text-on-surface-muted: #b5b5b5;
+        --color-text-on-error: #ffffff;
+        --color-text-on-success: #ffffff;
+
+        /* --color-bg-base: #0d1117;
+        --color-bg-surface: #161b20; */
+        --color-bg-base: #111622;
+        --color-bg-surface: #202635;
+        --color-bg-error: var(--error-color);
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-family: VeneerSoft;
+        font-weight: bold;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+@layer utilities {
+    .dark-theme {
+        @apply theme-dark;
+    }
+}
+
+@layer components {
+    .mobile-nav-bar .router-link-exact-active:before {
+        content: '> ';
+    }
+    .mobile-nav-bar .router-link-exact-active:after {
+        content: ' <';
+    }
+}

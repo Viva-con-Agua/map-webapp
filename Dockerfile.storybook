@@ -1,0 +1,13 @@
+FROM node:14
+#FROM node:10
+
+# make the 'app' folder the current working directory
+WORKDIR /usr/src/app
+# copy both 'package.json' and 'package-lock.json' (if available)
+COPY package.json ./
+RUN npm install
+
+# install project dependencies
+
+EXPOSE 80
+CMD ["npm", "run", "storybook_docker"]

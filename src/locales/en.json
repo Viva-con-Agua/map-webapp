@@ -1,0 +1,213 @@
+{
+    "undefined": "Translation error",
+    "locale": {
+        "dateFormat": "YYYY-MM-DD",
+        "dateTimeFormat": "YYYY-MM-DD HH:mm",
+        "time": " h",
+        "currency": "€",
+        "locale": "en-GB",
+        "monthDateFormat": "YYYY-MM",
+        "de": {
+            "locale": "de-DE",
+            "name": "German",
+            "label": "DE"
+        },
+        "ch": {
+            "locale": "de-CH",
+            "name": "Swiss German",
+            "label": "CH"
+        },
+        "za": {
+            "locale": "en-ZA",
+            "name": "South African English",
+            "label": "ZA"
+        },
+        "gb": {
+            "locale": "en-GB",
+            "name": "Britisches English",
+            "label": "GB"
+        }
+    },
+    "language": {
+        "title": "Language"
+    },
+    "messages": {
+        "title": {
+            "success": "Super!",
+            "error": "Uuuups",
+            "warn": "Hmmm",
+            "welcome": "Hey!",
+            "bye": "Bye!",
+            "thanks": "Thanks!"
+        },
+        "error": {
+            "unknown": "An unknown error has occurred",
+            "unauth": "You are not properly logged in right now!",
+            "wrong_extension": "Unfortunately, the file has an unsupported file format",
+            "page_404": "You must have taken a wrong turn somewhere",
+            "permissions": "You do not have the necessary permissions to perform this action",
+            "image_dimension": "The image must not be larger than 800 x 800 pixels",
+            "user_nvm_required": "The user must be active and have a non-voting membership to get roles"
+        }
+    },
+    "button": {
+        "save": "Save",
+        "donate": "Donate",
+        "donate_now": "Donate now.",
+        "create": "Create",
+        "generate": "Generate",
+        "add": "Add",
+        "apply": "Apply",
+        "accept": "Accept",
+        "reject": "Reject",
+        "revoke": "Revoke",
+        "change": "Change",
+        "select": "Select",
+        "confirm": "Confirm",
+        "membership": "Become member",
+        "export": "Export",
+        "export_as": "Export as {0}",
+        "send": "Send",
+        "show": "Display",
+        "view": "View",
+        "signin": "Sign In",
+        "remove": "Remove",
+        "delete": "Delete",
+        "back": "Back",
+        "next": "Next",
+        "update": "Update",
+        "edit": "Edit",
+        "cancel": "Cancel",
+        "cancelling": "Call off",
+        "enter": "Join",
+        "request": "Request",
+        "publish": "Publish",
+        "withdraw": "Withdraw",
+        "leave": "Leave",
+        "upload": "Upload",
+        "download": "Download",
+        "contact": "Contact",
+        "preview": "Preview",
+        "clear": "Reset",
+        "more": "More",
+        "participations": "Participations"
+    },
+    "context_button": {
+        "save": "Save {0}",
+        "create": "Create {0}",
+        "generate": "Generate {0}",
+        "add": "Add {0}",
+        "change": "Change {0}",
+        "confirm": "Confirm {0}",
+        "export": "Export",
+        "export_as": "Export {0} as {1}",
+        "select": "Select {0}",
+        "send": "Send {0}",
+        "show": "Show {0}",
+        "view": "View {0}",
+        "remove": "Remove {0}",
+        "delete": "Delete {0}",
+        "update": "Update {0}",
+        "revoke": "Revoke {0}",
+        "edit": "Edit {0}",
+        "cancelling": "Call {0} off",
+        "enter": "Enter {0}",
+        "request": "Request {0}",
+        "publish": "Publish {0}",
+        "withdraw": "Withdraw {0}",
+        "leave": "Leave {0}",
+        "upload": "Upload {0}",
+        "download": "Download {0}",
+        "clear": "Reset {0}",
+        "prepare": "Prepare {0}"
+    },
+    "navigation": {
+        "home": {
+            "title": "Home",
+            "children": {}
+        },
+        "example": {
+            "title": "Examples",
+            "children": {
+                "reactivity": "Reactivity",
+                "store": "Store"
+            }
+        },
+        "table": {
+            "title": "Tables",
+            "children": {
+                "local": "Local data",
+                "async": "Asynchronous Daten"
+            }
+        }
+    },
+    "footer": {
+        "legal": {
+            "copyright": {
+                "header": "© 2022 Viva con Agua de Sankt Pauli e.V.",
+                "url": "https://www.vivaconagua.org"
+            },
+            "security": {
+                "header": "Privacy policy",
+                "url": "https://www.vivaconagua.org/datenschutzerklaerung/"
+            },
+            "imprint": {
+                "header": "Impress",
+                "url": "https://www.vivaconagua.org/impressum/"
+            },
+            "emission": {
+                "header": "0% CO2 Emission - 100% Hydropower",
+                "url": "https://www.vivaconagua.org/umweltbewusstsein/"
+            }
+        }
+    },
+    "table": {
+        "header": {
+            "index": "#",
+            "name": "Name",
+            "avatar": "Avatar",
+            "title": "Titel",
+            "start": "Start",
+            "species": "Species",
+            "end": "End",
+            "type": "Type",
+            "state": "State",
+            "access": "Permission",
+            "description": "Description",
+            "created": "Created",
+            "private": "Private",
+            "member_count": "Members"
+        },
+        "page": {
+            "label": "Page",
+            "size": "Entries",
+            "first": "First entries",
+            "back": "Previous entries",
+            "next": "Next entries",
+            "last": "Last entries",
+            "no_results": "No entries found"
+        },
+        "options": "",
+        "search": "Search"
+    },
+    "home": {
+        "welcome": "Welcome to Vite + Vue 3 + Storybook + Typescript",
+        "vue": "Vue beinhaltet Vue Router + Vue i18n + Pinia Store",
+        "setup": "Recommended IDE setup:",
+        "see-readme": {
+            "see": "see",
+            "more-info": "for more information."
+        },
+        "docs": "Docs"
+    },
+    "example": {
+        "check-reactivity": "Check reactivity",
+        "store-example": "Store example",
+        "count": "no clicks |  {count} click | {count} clicks",
+        "success": "Successfully clicked",
+        "hmr": {
+            "edit": "Edit",
+            "test": "to test hot module replacement"
+        }
+    }
+}
